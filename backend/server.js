@@ -8,7 +8,7 @@ const NewsRoutes = require("./routes/NewsRoutes");
 const app = express();
 app.use(
     cors({
-        origin :"https://newshubv2.netlify.app/"|| '*',
+        origin :"https://newshubv2.netlify.app"|| '*',
         methods:["GET", "POST", "PUT", "DELETE"],
         allowedHeaders:["Content-Type", "Authorization"]
     })
