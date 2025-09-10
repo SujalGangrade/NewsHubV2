@@ -1,4 +1,5 @@
- export const Base_url = "http://localhost:5000";
+//  export const Base_url = "http://localhost:5000";
+ export const Base_url = "https://newshubv2.onrender.com";
 
 export const API_PATHS = {
     Auth:{
